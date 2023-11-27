@@ -1,12 +1,16 @@
 import java.util.Scanner;
 
-public class Original {
+public class QuizFootball {
     public static Scanner ler = new Scanner(System.in);
     public static final String PURPLE_BOLD = "\u001B[1;35m";
     public static final String RESET_COLOR = "\u001B[0m";
 
     public static void main(String[] args) {
         System.out.printf(PURPLE_BOLD + "Bruno da Cruz, João Rosa e Vinicius Tenorio " + "Apresentam: \n\n" + RESET_COLOR);
+
+        String nomeDoJogador = "";
+        System.out.println(PURPLE_BOLD + "Informe o nome do Jogado: " + RESET_COLOR);
+        nomeDoJogador = ler.nextLine();
 
         String banner =
             PURPLE_BOLD +
@@ -23,7 +27,7 @@ public class Original {
                 "'-----------------------------------------------------------------------------------'" +
                 RESET_COLOR;
 
-        digitarComMillisChar(banner, 15);
+        digitarComMillisChar(banner, 5);
 
         while (true) {
             menuDeOpcoes();
@@ -91,7 +95,7 @@ public class Original {
         System.out.println("1 - 0 objetivo do jogo é responder corretamente o maximo de perguntas possíveis. ");
         System.out.println("2 - O jogo tem 4 campeonatos, cada campeonato tem um conjunto de perguntas específicas. ");
         System.out.println("3 - O jogador deve escolher o campeonato digitando o número correspondete ao campeonato de sua escolha");
-        System.out.println("4 - As respostas devem ser dadas pelo jogador digitando letras.");
+        System.out.println("4 - As respostas devem ser dadas pelo jogador digitando letras: A B C D ou E");
         System.out.println("5 - Sistema de Pontuação funciona da seguinte forma: ");
         System.out.println("    -- Fácil: 100 ponto");
         System.out.println("    -- Médio: 200 pontos");
@@ -110,6 +114,7 @@ public class Original {
     }
 
     private static void iniciarOJogo() {
+
         System.out.println("Escolha o campeonato:");
         System.out.println("1 - Copa do Mundo");
         System.out.println("2 - Champions League");
