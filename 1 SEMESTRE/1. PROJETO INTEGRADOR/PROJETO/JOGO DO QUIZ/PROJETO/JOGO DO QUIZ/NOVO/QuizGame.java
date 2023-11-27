@@ -108,7 +108,7 @@ public class QuizFootball {
     } 
 
     private static void mostrarPontuacao() {
-        // Coloque aqui a lógica para exibir o ranking, se desejar.
+        //lógica para exibir o ranking
         System.out.println("Mostrar pontuação.");
         menuDeOpcoes();
     }
