@@ -27,7 +27,7 @@ public class QuizFootball {
                 "'-----------------------------------------------------------------------------------'" +
                 RESET_COLOR;
 
-        digitarComMillisChar(banner, 5);
+        digitarComMillisChar(banner, 25);
 
         while (true) {
             menuDeOpcoes();
@@ -108,7 +108,7 @@ public class QuizFootball {
     } 
 
     private static void mostrarPontuacao() {
-        //lógica para exibir o ranking
+        // Coloque aqui a lógica para exibir o ranking, se desejar.
         System.out.println("Mostrar pontuação.");
         menuDeOpcoes();
     }
