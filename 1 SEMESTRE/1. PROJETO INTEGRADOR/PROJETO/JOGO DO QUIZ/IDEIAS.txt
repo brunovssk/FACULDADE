@@ -1,0 +1,14 @@
+1- Fazer Rank
+
+Me ajude a desenvolver um sistema de Mostrar Pontos em java, conforme abaixo:
+1- Usuario entra com o nome antes do jogo começar fica registrado em uma variavel:
+2- No final do Quiz armazena a quantidade de pontos + o nome:
+3- Mostrar na opção Ponto o nome + quantidade de pontos:
+4- Se caso o mesmo usuario jogar novamente substitua os pontos existente, se acaso o usuario tirar menos pontos do que ja havia, 
+acrescentar apenas 100 pontos no Rank:
+
+
+== COLOCAR NO SLIDE
+1- o porque da escolha do tema
+2- os desafios iniciais enfrentados
+3- as soluções apresentadas e uma reflexão sobre o que poderia ter sido diferente.
