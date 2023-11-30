@@ -1,0 +1,32 @@
+1- Primeira Questão:
+
+Um parque de diversões deseja traçar o perfil de seus visitantes. Para tanto, instalou um Totem Digital na entrada com algumas perguntas. Os dados do Totem serão compilados através de um algoritmo. 
+
+O parque deseja obter as seguintes informações:
+
+Quantidade de visitantes que já são aposentados.
+Quantidade de visitantes menores de idade.
+Média de idade dos visitantes.
+Quantidade de visitantes por tipo preferido de atração. Os tipos são familiar e aventura.
+Observações:
+
+Utilize um gerador de número aleatórios para testar o programa com 700 visitantes
+
+2 - Segunda Questão:
+
+Crie um algoritmo em JAVA com um método que receba o número de linhas e colunas e preencha uma matriz conforme a forma abaixo. Após, o algoritmo deverá exibir a forma na tela.
+
+No exemplo, a forma tem 7 linhas e 10 colunas.
+
+==========
+=
+=
+=
+=
+=
+++++++++++
+
+3 - Terceira Questão:
+
+Crie um método para retornar a soma dos valores das colunas pares de um array bidimensional dividida pela soma dos valores das linhas ímpares deste mesmo array. 
+Teste o método com um array preenchido com valores gerados aleatoriamente entre 1 e 10.
